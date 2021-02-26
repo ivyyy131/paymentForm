@@ -1,0 +1,65 @@
+ul {
+  display: flex;
+  list-style: none;
+  max-width: 600px;
+  margin: 1em auto;
+}
+li {
+  width: 80px;
+  margin: 0 auto;
+  background-color: lightblue;
+  text-align: center;
+  border-radius: 10px;
+}
+li:hover {
+  background-color: rgb(150, 184, 196);
+  cursor: pointer;
+}
+li a {
+  text-decoration: none;
+}
+.active {
+  background-color: rgb(159, 188, 199);
+  border: 3px solid rgb(214, 206, 91);
+}
+.nav-items:hover {
+  cursor: pointer;
+}
+.container {
+  width: 50%;
+  margin: 5em auto;
+  background: rgba(173, 216, 230, 0.61);
+  border-radius: 10px;
+  padding: 30px;
+}
+span {
+  color: red;
+  margin: 5px;
+}
+.required {
+  margin-bottom: 20px;
+  color: rgb(119, 119, 119);
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.next-btn-holder {
+  margin-top: 10px;
+}
+.next-btn-holder button:hover {
+  cursor: pointer;
+}
+button,
+input,
+select {
+  padding: 5px 10px;
+}
+.in-honor-holder {
+  margin-top: 1em;
+}
+label + input,
+label + select,
+label + textarea {
+  display: block;
+}
